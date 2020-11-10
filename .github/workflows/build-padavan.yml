@@ -10,8 +10,10 @@ on:
   #    - master
 #  schedule:
 #    - cron: 0 8 * * 5
-  watch:
-    types: [started]
+  workflow_dispatch:
+    
+env:
+  TZ: 'Asia/Shanghai'
 
 jobs:
   build:
