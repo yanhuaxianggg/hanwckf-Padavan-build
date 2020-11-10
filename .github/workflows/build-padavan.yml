@@ -1,15 +1,6 @@
 name: Build Padavan
 
 on: 
-  release:
-    types: [published]
-  push:
-    tags:
-    - 'v*'
-  #  branches: 
-  #    - master
-#  schedule:
-#    - cron: 0 8 * * 5
   workflow_dispatch:
     
 env:
